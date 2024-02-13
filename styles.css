@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2; /* Light gray background color */
+    font-size: large;
+}
+.profile {
+ background-color:rgb(180, 192, 191);
+ display: block;
+ text-align: center;
+ color: red;
+}
+
+.personinfo{  
+    width: 100%;
+}
+.personinfo div{
+    
+    width: 40%;
+    display: inline-block;
+    
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.profile-info {
+    text-align: left;
+}
+
+h1, h2 {
+    color: #333; /* Dark color for titles */
+}
+
+hr {
+    border: 1px solid #ccc; /* Light gray border for separating sections */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #007bff; /* Blue color for links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
